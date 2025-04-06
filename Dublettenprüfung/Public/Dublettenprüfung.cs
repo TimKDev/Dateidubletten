@@ -11,7 +11,7 @@ public class Dublettenprüfung : IDublettenprüfung
     }
 
     /// <summary>
-    /// Factory Function to create a new instance. 
+    /// Factory Function to create a new instance of Dublettenprüfung. 
     /// </summary>
     /// <returns></returns>
     public static Dublettenprüfung Create()
