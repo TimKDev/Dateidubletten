@@ -22,7 +22,6 @@ internal class SizeComparer : IEqualityComparer<FileInformation>
         return x.Size == y.Size;
     }
 
-    //Verstehe nochmal besser was ein Hashcode ist
     public int GetHashCode(FileInformation obj)
     {
         return obj.Size.GetHashCode();

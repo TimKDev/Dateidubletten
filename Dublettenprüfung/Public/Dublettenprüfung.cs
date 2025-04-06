@@ -34,7 +34,7 @@ public class Dublettenprüfung : IDublettenprüfung
         {
             Vergleichsmodi.Größe_und_Name => new NameAndSizeComparer(),
             Vergleichsmodi.Größe => new SizeComparer(),
-            _ => throw new Exception($"Missing Implementation for {modus}.")
+            _ => throw new NotImplementedException($"Missing Implementation for {modus}.")
         };
 
         var fileGrouper = new FileGrouper(fileComparerStrategy, _fileRepository);
