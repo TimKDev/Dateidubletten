@@ -6,7 +6,7 @@ using TE = Dublettenprüfung.Unit.Tests.Helper.TestEntities;
 
 namespace Dublettenprüfung.Unit.Tests;
 
-public class DublettenprüfungTests
+public class SammelKandidatenTests
 {
     private readonly IFileRepository _fileRepositoryMock = Substitute.For<IFileRepository>();
     private const string BasePath = "/";
